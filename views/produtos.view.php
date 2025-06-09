@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
-<section class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
+<section class="grid justify-items-center p-10">
 
-    <div class="p-2 roudend border-stone-800 border-2 bg-stone-900 m-1">
+    <div class="p-2 roudend border-stone-800 border-2 bg-stone-900 m-1 p-4">
         <div class="flex">
             <div>
 
@@ -23,8 +23,8 @@
 
         <div class="place-content-center grid">
             <div class="p-1 pt-3 ">
-                <button class="text-center border-stone-800 bg-stone-900 px-2 py-1 rounded-md border-2 hover:bg-cyan-800 hover:border-cyan-900 w-30 hover:opacity-90 font-semibold hover:scale-105 duration-200 transition"><a href="updateproduto?id=<?= $produtos->id; ?>">Editar</a></button>
-                <button class="text-center border-stone-800 bg-stone-900 px-2 py-1 rounded-md border-2 hover:bg-red-800 hover:border-red-900 font-semibold w-30 hover:opacity-90 hover:scale-105 duration-200 transition"><a href="removerproduto?id=<?= $produtos->id; ?>">Remover</a></button>
+                <button class="text-center border-stone-800 bg-stone-900 px-2 py-1 rounded-md border-2 hover:bg-cyan-800 hover:border-cyan-900 w-30 hover:opacity-90 font-semibold hover:scale-105 duration-200 transition"><a class="p-1.5 px-8" href="updateproduto?id=<?= $produtos->id; ?>">Editar</a></button>
+                <button class="text-center border-stone-800 bg-stone-900 px-2 py-1 rounded-md border-2 hover:bg-red-800 hover:border-red-900 font-semibold w-30 hover:opacity-90 hover:scale-105 duration-200 transition"><a class=" p-1.5 px-5" href="removerproduto?id=<?= $produtos->id; ?>">Remover</a></button>
             </div>
 
             <div class="p-1">

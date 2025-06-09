@@ -14,7 +14,6 @@
             <div class="font-bold text-xl tracking-wide text-cyan-400">Loja de Informatica</div>
             <ul class="flex space-x-4 font-bold">
                 <li class="text-cyan-400 hover:text-cyan-600 hover:scale-103 transition"><a href="/" class="">Explorar</a></li>
-                <li class="hover:text-stone-400 transition hover:scale-103 transition"><a href="/tabela">Estoque</a></li>
             </ul>
             <ul>
                 <li class="font-semibold"><?php if (empty($_SESSION['nome'])) {
